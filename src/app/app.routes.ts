@@ -1,11 +1,12 @@
 import { Routes } from '@angular/router';
 import { LayoutComponent } from './features/1layout/layout/layout.component';
 import { FlexboxComponent } from './features/2flexbox/flexbox/flexbox.component';
+import { GridComponent } from './features/3grid/grid/grid.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: FlexboxComponent,
+    component: GridComponent,
   },
   {
     path: 'layout',
@@ -14,5 +15,9 @@ export const routes: Routes = [
   {
     path: 'flexbox',
     component: FlexboxComponent,
+  },
+  {
+    path: 'grid',
+    component: GridComponent,
   },
 ];
