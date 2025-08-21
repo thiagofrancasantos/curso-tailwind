@@ -4,7 +4,23 @@ module.exports = {
     "./src/**/*.{html,ts}"
   ],
   theme: {
-    extend: {},
+    screens: {
+      'tablet': '640px',
+      'cel': {
+        'max': '400px'
+      }
+    },
+    extend: {
+      colors: {
+        'new-blue': '#243C5A'
+      },
+      spacing: {
+        '30': '20rem'
+      },
+      fontFamily: {
+        'arial': 'Arial'
+      }
+    },
   },
   plugins: [],
 }
