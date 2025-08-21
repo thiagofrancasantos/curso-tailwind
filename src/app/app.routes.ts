@@ -6,11 +6,12 @@ import { CustomizacaoComponent } from './features/4customizacao/customizacao/cus
 import { EspacamentoEAlinhamentoComponent } from './features/5espacamento_e_alinhamento/espacamento-e-alinhamento/espacamento-e-alinhamento.component';
 import { TipografiaComponent } from './features/6tipografia/tipografia/tipografia.component';
 import { BackgroundComponent } from './features/7background/background/background.component';
+import { BordasComponent } from './features/8bordas/bordas/bordas.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: BackgroundComponent,
+    component: BordasComponent,
   },
   {
     path: 'layout',
@@ -26,18 +27,22 @@ export const routes: Routes = [
   },
   {
     path: 'customizacao',
-    component: CustomizacaoComponent
+    component: CustomizacaoComponent,
   },
   {
     path: 'espacamento_alinhamento',
-    component: EspacamentoEAlinhamentoComponent
+    component: EspacamentoEAlinhamentoComponent,
   },
   {
     path: 'tipografia',
-    component: TipografiaComponent
+    component: TipografiaComponent,
   },
   {
     path: 'background',
-    component: BackgroundComponent
-  }
+    component: BackgroundComponent,
+  },
+  {
+    path: 'bordas',
+    component: BordasComponent,
+  },
 ];
